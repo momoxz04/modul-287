@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500|Noto+Sans:700");
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 1em;
+    letter-spacing: 0.035em;
+    font-weight: 300;
+}
+main {
+    background-image: url(img/mainbild.jpg);
+    width: 100%;
+    height: fit-content;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section {
+    display: flex;
+    flex-direction: row;
+}
+.history {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+.history img {
+    width: 251px;
+    height: 500px;
+    object-fit: cover;
+}
+main article {
+    display: flex;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+#mainbottom {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+button a:hover{
+    background-color: white;
+}
+
+
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    margin: 0 0 40px 0;
+}
+
+#header {
+    margin: 0 0 0 0;
+    padding: 40px;
+}
+
+.navi {
+    font-weight: 300;
+    float: left;
+    padding: 0 40px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .navi {
+        float: none;
+    }
+}
+
+.naviaktiv {
+    font-weight: 300;
+    float: left;
+    padding: 0 40px 0 0;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .naviaktiv {
+        float: none;
+    }
+}
+main {
+    display: flex;
+    flex-grow: 1;
+}
+footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0px 10px 40px;
+}
